@@ -2,27 +2,9 @@ package poo.projetoabstraindobootcamp;
 
 import java.time.LocalDate;
 
-public class Mentoria {
+public class Mentoria extends Conteudo{
 
-    private String nome;
-    private String descricao;
     private LocalDate data;
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
 
     public LocalDate getData() {
         return data;
@@ -33,11 +15,16 @@ public class Mentoria {
     }
 
     @Override
+    public double calcularXp() {
+        return XP_PADRAO + 20;
+    }
+
+    @Override
     public String toString() {
         return "Mentoria{" +
-                "nome='" + nome + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", data=" + data +
+                "titulo" + getTitulo() +
+                "descricao" + getDescricao() +
+                "data=" + data +
                 '}';
     }
 }
