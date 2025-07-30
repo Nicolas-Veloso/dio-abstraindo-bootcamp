@@ -1,4 +1,4 @@
-package poo.projetoabstraindobootcamp;
+package poo.projetoabstraindobootcamp.domain;
 
 public abstract class Conteudo {
 

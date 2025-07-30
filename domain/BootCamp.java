@@ -1,4 +1,4 @@
-package poo.projetoabstraindobootcamp;
+package poo.projetoabstraindobootcamp.domain;
 
 import java.time.LocalDate;
 import java.util.HashSet;

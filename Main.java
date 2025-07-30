@@ -1,5 +1,10 @@
 package poo.projetoabstraindobootcamp;
 
+import poo.projetoabstraindobootcamp.domain.BootCamp;
+import poo.projetoabstraindobootcamp.domain.Curso;
+import poo.projetoabstraindobootcamp.domain.Dev;
+import poo.projetoabstraindobootcamp.domain.Mentoria;
+
 import java.time.LocalDate;
 
 public class Main {

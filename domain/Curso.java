@@ -1,6 +1,6 @@
-package poo.projetoabstraindobootcamp;
+package poo.projetoabstraindobootcamp.domain;
 
-public class Curso extends Conteudo{
+public class Curso extends Conteudo {
 
     private int cargaHoraria;
 

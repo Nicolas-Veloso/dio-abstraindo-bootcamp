@@ -1,4 +1,4 @@
-package poo.projetoabstraindobootcamp;
+package poo.projetoabstraindobootcamp.domain;
 
 import java.util.LinkedHashSet;
 import java.util.Objects;
