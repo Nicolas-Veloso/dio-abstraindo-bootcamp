@@ -40,11 +40,11 @@ public class Main {
         bootCamp.getConteudos().add(mentoria);
 
         Dev dev = new Dev();
-        dev.setNome("Magraum");
+        dev.setNome("João");
         dev.increverBootCamp(bootCamp);
 
         Dev dev1 = new Dev();
-        dev1.setNome("Serjão");
+        dev1.setNome("Pedro");
         dev1.increverBootCamp(bootCamp);
 
         System.out.println(dev.getConteudosInscritos());
